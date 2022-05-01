@@ -1,0 +1,169 @@
+/*index*/
+.imgHome {
+  transform: scale(0.9); }
+
+/*menu*/
+img:hover {
+  transform: scale(1.1); }
+
+.mainMenu {
+  background-color: #ffff66; }
+
+.divHamburguesas {
+  grid-template-areas: "img1 img2" "img3 img4" "img5 img6";
+  display: grid;
+  justify-content: center;
+  text-align: center; }
+
+.divImg1 {
+  grid-area: img1;
+  padding: 1.5rem; }
+
+.divImg2 {
+  grid-area: img2;
+  padding: 1.5rem; }
+
+.divImg3 {
+  grid-area: img3;
+  padding: 1.5rem; }
+
+.divImg4 {
+  grid-area: img4;
+  padding: 1.5rem; }
+
+.divImg5 {
+  grid-area: img5;
+  padding: 1.5rem; }
+
+.divImg6 {
+  grid-area: img6;
+  padding: 1.5rem; }
+
+/*contacto*/
+h1 {
+  text-align: center; }
+
+main {
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff66; }
+
+/*nosotros*/
+.imgNosotros {
+  transform: scale(0.8); }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+.nav {
+  background-color: #ffff66; }
+
+.footer {
+  margin-top: 30px;
+  background-color: darkkhaki; }
+
+h2 {
+  font-size: 1.3rem;
+  text-align: center; }
+
+.anchofooter {
+  margin-top: 30px; }
+
+div ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+div ul li {
+  list-style: none; }
+
+.bi-facebook {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #001aff; }
+
+.bi-whatsapp {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #001aff; }
+
+.bi-instagram {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #001aff; }
+
+main div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+/* media queries menu*/
+@media only screen and (min-width: 209px) {
+  .imgMenu {
+    height: 18%;
+    width: 18%; }
+  nav ul li {
+    background-color: rgba(255, 145, 0, 0.616);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 2rem; }
+  .divHamburguesas {
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
+    align-items: center; } }
+
+@media only screen and (min-width: 540px) {
+  .imgMenu {
+    height: 16%;
+    width: 16%; }
+  nav ul li {
+    background-color: rgba(255, 145, 0, 0.616);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 2rem; }
+  .divHamburguesas {
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
+    align-items: center; } }
+
+@media only screen and (min-width: 600px) {
+  .imgMenu {
+    height: 50%;
+    width: 50%; }
+  nav ul li {
+    background-color: rgba(255, 145, 0, 0.616);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 2rem; }
+  .divHamburguesas {
+    grid-template-areas: "img1 img2" "img3  img4" "img5 img6";
+    justify-content: space-between; } }
+
+@media only screen and (min-width: 912px) {
+  .imgMenu {
+    height: 70%;
+    width: 70%; }
+  nav ul li {
+    background-color: rgba(255, 145, 0, 0.616);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 2rem; }
+  .divHamburguesas {
+    grid-template-areas: "img1 img2" "img3  img4" "img5 img6";
+    justify-content: space-between; } }
+
+@media only screen and (min-width: 1024px) {
+  .imgMenu {
+    height: 85%;
+    width: 85%; }
+  nav ul li {
+    background-color: rgba(255, 145, 0, 0.616);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 2rem; }
+  .divHamburguesas {
+    grid-template-areas: "img1 img2 img3" "img4 img5 img6";
+    justify-content: space-between; } }

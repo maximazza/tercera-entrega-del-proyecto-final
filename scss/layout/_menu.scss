@@ -1,0 +1,46 @@
+/*menu*/
+img:hover{
+    transform:scale(1.1);
+}
+.mainMenu{
+    background-color:$color-nav ;
+}
+.divHamburguesas{
+    grid-template-areas: "img1 img2"
+                        "img3 img4"
+                        "img5 img6";               
+   display: grid;
+    justify-content: center;
+    text-align: center;
+                    
+      
+}
+.divImg1{
+    grid-area: img1;
+    padding: 1.5rem;
+}
+
+.divImg2{
+    grid-area: img2;
+    padding: 1.5rem;
+}
+
+.divImg3{
+    grid-area: img3;
+    padding: 1.5rem;
+}
+
+.divImg4{
+    grid-area: img4;
+    padding: 1.5rem;
+}
+
+.divImg5{
+    grid-area: img5;
+    padding: 1.5rem;
+}
+
+.divImg6{
+    grid-area: img6;
+    padding: 1.5rem;
+}
